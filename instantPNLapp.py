@@ -210,7 +210,7 @@ col_left, col_midle, col_right = st.columns([1, 3, 1])
 
 with col_left:
 
-    st.subheader("Portofolio")
+    st.subheader("Portfolio")
 
     nombre_options=st.number_input("How many different options are in the portfolio?",
                                 min_value=1,
@@ -377,3 +377,4 @@ with col_midle: # typo
     #.\.venv\Scripts\Activate.ps1
 
     #streamlit run instantPNLapp.py
+
