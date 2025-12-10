@@ -325,7 +325,7 @@ with col_right :
 )
     
 
-with col_midle:
+with col_midle: # typo
 
     fig_pnl = px.line(
         x=a,
@@ -373,9 +373,6 @@ with col_midle:
     )
     st.plotly_chart(fig_theta)
 
-    #pourquoi quand quantity est de moins 1 cela affiche comme si je n'avais pas de position ?
-
-
     #Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
     #.\.venv\Scripts\Activate.ps1
-    #streamlit run teststreamlitapp.py
+    #streamlit run instantPNLapp.py
