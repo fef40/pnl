@@ -212,7 +212,7 @@ with col_left:
 
     st.subheader("Portofolio")
 
-    nombre_options=st.number_input("How many different option are in the portfolio?",
+    nombre_options=st.number_input("How many different options are in the portfolio?",
                                 min_value=1,
                                 max_value=100,
                                 help="The number of different options. If you have 3 options but 2 of them share the same parameters (type, strike, maturity), write 2 instead of 3. You can specify the quantity of each option type later.",
@@ -375,4 +375,5 @@ with col_midle: # typo
 
     #Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
     #.\.venv\Scripts\Activate.ps1
+
     #streamlit run instantPNLapp.py
